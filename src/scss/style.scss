@@ -58,3 +58,13 @@ body{
   width:100%;
   height:100%;
 }
+
+#video-play{
+  @extend #home-heading;
+  background:url('../img/media.jpg');
+  background-position: 0 -300px;
+
+  a{
+    color: #fff;
+  }
+}

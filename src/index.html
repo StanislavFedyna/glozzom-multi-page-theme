@@ -153,43 +153,45 @@
 </section>
 
 <!-- VIDEO PLAY SECTION -->
-<section id="video-play">
-  <div class="dark-overlay">
-    <div class="row">
-      <div class="col">
-        <div class="container p-5">
-          <a href="#" class="video" data-video="https://www.youtube.com/watch?v=WQlXimk62oE" data-toggle="modal" data-target="#videoModal">
-            <i class="fa fa-play"></i>
-          </a>
-          <h1> See That We Do</h1>
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a
+              href="#"
+              class="video"
+              data-video="https://www.youtube.com/embed/HDI9inno86U"
+              data-toggle="modal"
+              data-target="#videoModal"
+            >
+              <i class="fa fa-play"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- VIDEO MODAL -->
-<div class="modal fade" id="videoModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button class="close" data-dismiss="modal">
-          <span>&times;</span>
-        </button>
-        <iframe height="350" width="100%" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- Scripts -->
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
-
-<script>
-  CKEDITOR.replace('editor1');
-</script>
+<script src="js/video.js"></script>
 
 
 </body>
