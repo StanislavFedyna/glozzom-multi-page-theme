@@ -1,5 +1,6 @@
 $icon-size:55px;
 $dark-overlay:rgba(0, 0, 0, 0.7);
+$navbar-border: #25292D;
 
 body {
   overflow-x: hidden;
@@ -14,8 +15,8 @@ body {
   }
 
   .navbar-nav {
-    border-right: 3px solid #444;
-    border-left: 3px solid #444;
+    border-top: 3px solid $navbar-border;
+    border-bottom: 3px solid $navbar-border;
   }
 }
 
