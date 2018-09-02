@@ -9,8 +9,9 @@ body {
   padding-right: 1em !important;
 }
 
-.navbar .nav-item.active {
-  border-left: #444 3px solid;
+.navbar .navbar-nav {
+  border-right: 3px solid #444;
+  border-left: 3px solid #444;
 }
 
 .carousel-item {
@@ -18,17 +19,17 @@ body {
 }
 
 .carousel-image-1 {
-  background: url("../img/image1.jpg");
+  background: url("../img/design.jpg");
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url("../img/image2.jpg");
+  background: url("../img/perform.jpg");
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url("../img/image3.jpg");
+  background: url("../img/security.jpg");
   background-size: cover;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 #video-play {
-  background: url("../img/media.jpg");
+  background: url("../img/astro.jpg");
   background-position: 0 -300px;
 }
 
