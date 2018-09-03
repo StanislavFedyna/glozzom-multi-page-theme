@@ -9,11 +9,6 @@ body {
   padding-right: 1em !important;
 }
 
-.navbar .navbar-nav {
-  border-top: 3px solid #25292D;
-  border-bottom: 3px solid #25292D;
-}
-
 .carousel-item {
   height: 450px;
 }
