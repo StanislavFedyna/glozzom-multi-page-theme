@@ -78,8 +78,9 @@ body {
   padding-top: 50px;
 }
 
-#page-header h1, #page-header p {
-  color: #6f6f6f;
+#page-header h1,
+#page-header p {
+  color: #DEDEDE;
 }
 
 #about .img-rounded {
@@ -90,4 +91,8 @@ body {
   -ms-border-radius: 4%;
   -o-border-radius: 4%;
   box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, 0.65);
+}
+
+#icon-boxes .card {
+  background-color: #DEDEDE;
 }

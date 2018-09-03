@@ -66,38 +66,44 @@ body {
   }
 }
 
-#main-footer{
+#main-footer {
   background: #000;
   color: #fff;
 
-  a{
-    color:#fff !important;
+  a {
+    color: #fff !important;
   }
 }
 
-#page-header{
+#page-header {
   height: 200px;
   background: url("../img/design.jpg");
   background-position: 0 -360px;
   background-attachment: fixed;
-  color:fff;
+  color: fff;
   border-bottom: 1px solid #eee;
   padding-top: 50px;
 
-  h1, p{
-    color: darken($color: #eee, $amount: 50)
+  h1,
+  p {
+    color: #DEDEDE;
   }
 }
 
-#about{
-
-  .img-rounded{
+#about {
+  .img-rounded {
     margin-top: -50px;
     border-radius: 4%;
     -webkit-border-radius: 4%;
     -moz-border-radius: 4%;
     -ms-border-radius: 4%;
     -o-border-radius: 4%;
-    box-shadow: 6px 7px 22px 1px rgba(0,0,0,0.65);
+    box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, 0.65);
+  }
 }
+
+#icon-boxes {
+  .card{
+    background-color: #DEDEDE;
+  }
 }
