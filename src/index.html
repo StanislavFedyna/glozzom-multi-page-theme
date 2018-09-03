@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title> Glozzom Theme</title>
@@ -153,46 +154,84 @@
 </section>
 
 <!-- VIDEO PLAY SECTION -->
-  <section id="video-play">
-    <div class="dark-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5">
-            <a
-              href="#"
-              class="video"
-              data-video="https://www.youtube.com/embed/HDI9inno86U"
-              data-toggle="modal"
-              data-target="#videoModal"
-            >
-              <i class="fa fa-play"></i>
-            </a>
-            <h1>See What We Do</h1>
-            <p>(Click PLAY)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- VIDEO MODAL -->
-  <div class="modal fade" id="videoModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button class="close" data-dismiss="modal"><span>&times;</span></button>
-          <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+<section id="video-play">
+  <div class="dark-overlay">
+    <div class="row">
+      <div class="col">
+        <div class="container p-5">
+          <a href="#" class="video" data-video="https://www.youtube.com/embed/HDI9inno86U" data-toggle="modal"
+            data-target="#videoModal">
+            <i class="fa fa-play"></i>
+          </a>
+          <h1>See What We Do</h1>
+          <p>(Click PLAY)</p>
         </div>
       </div>
     </div>
   </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section id="gallery" class="py-5">
+  <div class="container">
+    <h1 class="text-center">Photo Gallery</h1>
+    <p class="text-center">Check out out photos</p>
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <a href="img/business-block-1.jpg" width="650" height="560" data-toggle="lightbox" data-gallery="img-gallery">
+          <img src="img/business-block-1.jpg" width="400" height="400" alt="loremImg" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/business-block-7.jpg" width="650" height="560" data-toggle="lightbox" data-gallery="img-gallery">
+          <img src="img/business-block-7.jpg" width="400" height="400" alt="loremImg" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/business-block-6.jpg" width="650" height="560" data-toggle="lightbox" data-gallery="img-gallery">
+          <img src="img/business-block-6.jpg" width="400" height="400" alt="loremImg" class="img-fluid">
+        </a>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <a href="img/business-block-4.jpg" width="650" height="560" data-toggle="lightbox" data-gallery="img-gallery">
+          <img src="img/business-block-4.jpg" width="400" height="400" alt="loremImg" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/business-block-5.jpg" width="650" height="560" data-toggle="lightbox" data-gallery="img-gallery">
+          <img src="img/business-block-5.jpg" width="400" height="400" alt="loremImg" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="img/business-block-2.jpg" width="650" height="560" data-toggle="lightbox" data-gallery="img-gallery">
+          <img src="img/business-block-2.jpg" width="400" height="400" alt="loremImg" class="img-fluid">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO MODAL -->
+<div class="modal fade" id="videoModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Scripts -->
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 <script src="js/video.js"></script>
+<script src="js/lightbox.js"></script>
 
 
 </body>
