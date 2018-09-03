@@ -85,6 +85,8 @@ body {
   padding-top: 50px;
 
   h1, p{
+    color: darken($color: #eee, $amount: 50)
+  }
 }
 
 #about{
