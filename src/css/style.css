@@ -66,5 +66,28 @@ body {
 
 #main-footer a {
   color: #fff !important;
-  text-decoration: none;
+}
+
+#page-header {
+  height: 200px;
+  background: url("../img/design.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: fff;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px;
+}
+
+#page-header h1, #page-header p {
+  color: #6f6f6f;
+}
+
+#about .img-rounded {
+  margin-top: -50px;
+  border-radius: 4%;
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  -ms-border-radius: 4%;
+  -o-border-radius: 4%;
+  box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, 0.65);
 }
