@@ -100,3 +100,11 @@ body {
 #services i {
   padding-right: 10px;
 }
+
+#faq .card-header {
+  border: #444;
+}
+
+#faq .card-header a {
+  text-decoration: none;
+}

@@ -103,13 +103,25 @@ body {
 }
 
 #icon-boxes {
-  .card{
+  .card {
     background-color: #DEDEDE;
   }
 }
 
-#services{
-  i{
+#services {
+  i {
     padding-right: 10px;
+  }
+}
+
+#faq{
+  
+  .card-header{
+    border: #444;
+
+    a{
+      text-decoration: none;
+    }
+
   }
 }
