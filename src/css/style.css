@@ -108,3 +108,11 @@ body {
 #faq .card-header a {
   text-decoration: none;
 }
+
+#blog .card-body {
+  background: #F2F2F2;
+}
+
+#blog .card {
+  background: #F2F2F2;
+}

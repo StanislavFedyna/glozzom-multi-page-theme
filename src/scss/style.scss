@@ -114,14 +114,22 @@ body {
   }
 }
 
-#faq{
-  
-  .card-header{
+#faq {
+  .card-header {
     border: #444;
 
-    a{
+    a {
       text-decoration: none;
     }
+  }
+}
 
+#blog {
+  .card-body {
+    background: #F2F2F2;
+  }
+
+  .card {
+    background: #F2F2F2;
   }
 }
