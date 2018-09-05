@@ -96,3 +96,7 @@ body {
 #icon-boxes .card {
   background-color: #DEDEDE;
 }
+
+#services i {
+  padding-right: 10px;
+}
