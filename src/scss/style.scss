@@ -133,3 +133,17 @@ body {
     background: #F2F2F2;
   }
 }
+
+#staff{
+
+  .fa{
+    padding-top: 10px;
+    font-size: 35px;
+    color: white;
+
+    &:hover{
+      color: darkgray;
+    }
+  }
+
+}
