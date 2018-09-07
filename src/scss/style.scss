@@ -20,17 +20,17 @@ body {
 }
 
 .carousel-image-1 {
-  background: url('../img/design.jpg');
+  background: url('../img/index/slider-design.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/perform.jpg');
+  background: url('../img/index/slider-perform.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/security.jpg');
+  background: url('../img/index/slider-security.jpg');
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ body {
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url('../img/home-street.jpg');
+  background: url('../img/index/home-street.jpg');
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
@@ -58,7 +58,7 @@ body {
 
 #video-play {
   @extend #home-heading;
-  background: url('../img/astro.jpg');
+  background: url('../img/index/stars.jpg');
   background-position: 0 -300px;
 
   a {
