@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <title> Glozzom Theme</title>
 </head>
@@ -45,7 +46,7 @@
 
   <!-- CONTACT SECTION -->
   <header id="page-header">
-    <div class="container">
+    <div class="container animated wow fadeIn">
       <div class="row">
         <div class="col-md-6 m-auto text-center">
           <h1>Contact Us</h1>
@@ -62,21 +63,21 @@
         <div class="col-md-4">
           <div class="card p-4">
             <div class="card-body">
-              <h4>Get In Touch</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis?</p>
-              <i class="fa fa-home"></i>
-              <h4 class="d-inline-block">Adress</h4>
-              <p>550 Main st Boston MA</p>
-              <i class="fa fa-envelope"></i>
-              <h4 class="d-inline-block">Email</h4>
-              <p>FedynaStanislav@gmail.com</p>
-              <i class="fa fa-phone-square"></i>
-              <h4 class="d-inline-block">Phone</h4>
-              <p>(098)74-20-448</p>
+              <h4 class="animated wow fadeIn">Get In Touch</h4>
+              <p class="animated wow fadeIn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis?</p>
+              <i class="fa fa-home animated wow fadeInLeft"></i>
+              <h4 class="d-inline-block animated wow fadeInLeft">Adress</h4>
+              <p class="animated wow fadeInLeft">550 Main st Boston MA</p>
+              <i class="fa fa-envelope animated wow fadeInLeft"></i>
+              <h4 class="d-inline-block animated wow fadeInLeft">Email</h4>
+              <p class="animated wow fadeInLeft">FedynaStanislav@gmail.com</p>
+              <i class="fa fa-phone-square animated wow fadeInLeft"></i>
+              <h4 class="d-inline-block animated wow fadeInLeft">Phone</h4>
+              <p class="animated wow fadeInLeft">(098)74-20-448</p>
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 animated wow fadeInRight">
           <div class="card p-4">
             <div class="card-body">
               <h3 class="text-center">Please fill out this form to contact us</h3>
@@ -123,11 +124,11 @@
   <!-- STAFF SECTION -->
   <section id="staff" class="py-5 text-center bg-dark text-white">
     <div class="container">
-      <h1>Out Staff</h1>
+      <h1 class="animated wow fadeIn">Out Staff</h1>
       <hr>
       <div class="row">
         <div class="col-md-3">
-          <img src="img/contact/contact-image-1.jpg" alt="staff-1" class="img-fluid rounded mb-2">
+          <img src="img/contact/contact-image-1.jpg" alt="staff-1" class="img-fluid rounded mb-2 animated wow flipInX">
           <h4>Jack Lotos</h4>
           <small>Marketing Manager</small>
           <br>
@@ -136,7 +137,7 @@
           <a href="#"><i class="fa fa-facebook-square"></i></a>
         </div>
         <div class="col-md-3">
-          <img src="img/contact/contact-image-2.jpg" alt="staff-2" class="img-fluid rounded mb-2">
+          <img src="img/contact/contact-image-2.jpg" alt="staff-2" class="img-fluid rounded mb-2 animated wow flipInX">
           <h4>Philip Trevis</h4>
           <small>Business Manager</small>
           <br>
@@ -145,7 +146,7 @@
           <a href="#"><i class="fa fa-facebook-square"></i></a>
         </div>
         <div class="col-md-3">
-          <img src="img/contact/contact-image-3.jpg" alt="staff-3" class="img-fluid rounded mb-2">
+          <img src="img/contact/contact-image-3.jpg" alt="staff-3" class="img-fluid rounded mb-2 animated wow flipInX">
           <h4>Mike Sevillia</h4>
           <small>CEO</small>
           <br>
@@ -154,7 +155,7 @@
           <a href="#"><i class="fa fa-facebook-square"></i></a>
         </div>
         <div class="col-md-3">
-          <img src="img/contact/contact-image-4.jpg" alt="staff-4" class="img-fluid rounded mb-2">
+          <img src="img/contact/contact-image-4.jpg" alt="staff-4" class="img-fluid rounded mb-2 animated wow flipInX">
           <h4>Steve Smith</h4>
           <small>Web Developer</small>
           <br>
@@ -179,6 +180,11 @@
   </footer>
 
   <!-- Scripts -->
+    <!-- WOW.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
